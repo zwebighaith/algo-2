@@ -1,0 +1,39 @@
+
+algo
+VAR
+   tab1,tab2 : ARRAY_OF INTEGER[50]
+   i, j : INTEGER; 
+   counter : INTEGER;
+   
+
+BEGIN
+  i := 0;
+  j := 0;
+  counter := 0;
+
+  tab1 := [3, 1, 7, 9]; 
+  tab2 := [2, 4, 1, 9, 3];
+  tab3 := []
+
+  while(i < tab1.length) {
+    while(j < tab2.length) {
+      if (tab1[i] === tab2[i]) {
+      	tab3 := [tab1[i]]
+        i++
+      } else {
+	j++ 
+        }
+
+    }
+pour i de 1 a long (tab3) faire
+counter :=  counter + tab3[i]
+
+
+  }
+
+
+
+
+
+
+ 
